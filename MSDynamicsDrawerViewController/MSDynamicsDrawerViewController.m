@@ -249,7 +249,7 @@ void MSDynamicsDrawerDirectionActionForMaskedValues(NSInteger direction, MSDynam
     self.paneTapToCloseEnabled = [NSMutableDictionary new];
     self.stylers = [NSMutableDictionary new];
     
-    self.touchForwardingClasses = [NSMutableSet setWithArray:@[[UISlider class], [UISwitch class]]];
+    self.touchForwardingClasses = [NSMutableSet setWithArray:@[[UISlider class], [UISwitch class], [UIScrollView class]]];
     
     self.drawerView = [UIView new];
     self.drawerView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
